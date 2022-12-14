@@ -3,25 +3,25 @@
 /**
  * print_sign - prints the sign of a number
  * @n: the number of the sign to be printed
- * Return: 1 if number is greater than zero
+ * Return: 1 if number is bigger than zero
  * 0 of number is zero
- * -1 is number is less than zero
+ * -1 is number is smaller than zero
  */
 int print_sign(int n)
 {
 	if (n > 0)
 	{
-		_putchar('_');
+		_putchar('+');
 		return (1);
 	}
 	else if (n == 0)
 	{
-		_putchar('_');
+		_putchar('0');
 		return (0);
 	}
 	else
 	{
-		_putchar('_');
+		_putchar('-');
 		return (-1);
 	}
 }
