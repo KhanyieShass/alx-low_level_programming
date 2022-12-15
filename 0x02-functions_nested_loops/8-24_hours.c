@@ -1,11 +1,13 @@
 #include "main.h"
 
 /**
- * jack_bauer - prints every minute of the day
+ * main - check the code for Holberton School students.
+ *
+ * Return: Always 0.
  */
-void jack_bauer(void)
+int main(void)		
 {
-	int hour, minute;
+	jack_bauer();
 
 	for (hour = 0; hour <= 23; hour++)
 	{
