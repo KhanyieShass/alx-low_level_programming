@@ -21,4 +21,4 @@ def safe_print_list(my_list=[], x=0):
         else:
             count += 1
     print()
-    return count
+    return coun
